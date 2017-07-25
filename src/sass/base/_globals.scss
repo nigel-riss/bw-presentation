@@ -1,0 +1,22 @@
+html {
+    // box model
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    // box model
+    box-sizing: inherit;
+}
+
+body {
+    // typography
+    color: $white;
+    font-family: $mainFont;
+    font-size: 22px;
+    font-weight: 100;
+
+    // visual
+    background-color: $black;
+}

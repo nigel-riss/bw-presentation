@@ -1,1 +1,13 @@
+// fonts
+@import 'fonts/fonts';
+
+// normalize
 @import 'normalize.css';
+
+// base styles
+@import 'base/vars';
+@import 'base/mixins';
+@import 'base/globals';
+
+// modules
+@import 'modules/section';
