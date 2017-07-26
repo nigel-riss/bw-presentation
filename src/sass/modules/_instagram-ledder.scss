@@ -1,9 +1,21 @@
 .instagram-ledder {
-    &__row {
+    // typography
+    font-size: 0;
 
+    &__row {
+        // typography
+        text-align: right;
+
+        &:nth-of-type(n + 4) {
+            // box model
+            display: none;
+        }
     }
 
     &__title {
+        // box model
+        padding: 20px 0;
+        
         // typography
         font-family: $titleFont;
         font-size: 2rem;
@@ -21,7 +33,8 @@
 
     &__image {
         // box model
-        width: 100%;
+        display: inline-block;
+        width: 100px;
 
         img {
             // box model

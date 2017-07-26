@@ -417,7 +417,9 @@ body {
 
 .section {
   position: relative;
-  padding: 30px; }
+  padding: 30px;
+  margin-bottom: 20px;
+  border-bottom: 2px dotted #ffffff; }
   .section__background {
     margin: 0 -30px; }
     .section__background img {
@@ -471,6 +473,7 @@ body {
 
 .orange-logo {
   margin: 0 auto;
+  padding: 20px 0;
   text-align: center; }
 
 .orange-motto {
@@ -543,20 +546,27 @@ body {
   .styling-image img {
     width: 100%; }
 
-.instagram-ledder__title {
-  font-family: "IntroBold";
-  font-size: 2rem;
-  line-height: 1;
-  text-align: center;
-  text-transform: uppercase; }
-  .instagram-ledder__title a {
-    color: #d5a353;
-    text-decoration: none; }
-
-.instagram-ledder__image {
-  width: 100%; }
-  .instagram-ledder__image img {
-    width: 100%; }
+.instagram-ledder {
+  font-size: 0; }
+  .instagram-ledder__row {
+    text-align: right; }
+    .instagram-ledder__row:nth-of-type(n + 4) {
+      display: none; }
+  .instagram-ledder__title {
+    padding: 20px 0;
+    font-family: "IntroBold";
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase; }
+    .instagram-ledder__title a {
+      color: #d5a353;
+      text-decoration: none; }
+  .instagram-ledder__image {
+    display: inline-block;
+    width: 100px; }
+    .instagram-ledder__image img {
+      width: 100%; }
 
 .golden-title {
   margin-bottom: 0;
@@ -567,8 +577,31 @@ body {
   text-transform: uppercase; }
 
 .prices-table {
+  margin: 0 -20px;
   border-collapse: collapse; }
   .prices-table tr {
     border-bottom: 1px solid #ffffff; }
+  .prices-table th {
+    padding: 5px;
+    font-size: 1rem;
+    text-align: center; }
+    .prices-table th:nth-of-type(4) {
+      display: none; }
   .prices-table td {
-    font-size: 0.875rem; }
+    padding: 5px;
+    font-size: 0.875rem;
+    text-align: center; }
+    .prices-table td:nth-of-type(1) {
+      text-align: left; }
+    .prices-table td:nth-of-type(2) {
+      color: #d5a353;
+      font-family: "IntroBold"; }
+    .prices-table td:nth-of-type(4) {
+      display: none; }
+
+.certificate__logo {
+  text-align: center; }
+
+.certificate__text {
+  font-size: 0.8rem;
+  text-transform: uppercase; }

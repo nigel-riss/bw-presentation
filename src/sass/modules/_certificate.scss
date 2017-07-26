@@ -1,0 +1,14 @@
+.certificate {
+    &__logo {
+        // box model
+        // margin: 0 auto;
+
+        text-align: center;
+    }
+
+    &__text {
+        // typography
+        font-size: 0.8rem;
+        text-transform: uppercase;
+    }
+}
