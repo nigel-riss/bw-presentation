@@ -1,0 +1,11 @@
+.golden-title {
+    // box model
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    // typography
+    color: $orange;
+    font-family: $titleFont;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+}

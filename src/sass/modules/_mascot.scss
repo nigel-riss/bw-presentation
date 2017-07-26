@@ -1,0 +1,18 @@
+.mascot {
+    // positioning
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100px;
+
+    z-index: -1;
+
+    // box model
+    max-width: 100%;
+
+    img {
+        // box model
+        width: 100%;
+    }
+}

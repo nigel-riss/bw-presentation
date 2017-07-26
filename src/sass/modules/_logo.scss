@@ -1,4 +1,11 @@
 .logo {
+    // box model
+    padding-top: 50px;
+    padding-bottom: 220px;
+
+    // typography
+    text-align: center;
+
     &__text {
         // typography
         font-size: 0;
@@ -7,8 +14,22 @@
         visibility: hidden;
     }
 
+    &__image {
+        // box model
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+
+        img {
+            // box model
+            width: 100%;
+        }
+    }
+
     &__est {
         // typography
         color: $orange;
+        font-family: $titleFont;
+        font-size: 1rem;
     }
 }

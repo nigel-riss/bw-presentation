@@ -1,3 +1,32 @@
 .section {
-    
+    // positioning
+    position: relative;
+
+    // box model
+    // border: 1px solid red;
+    padding: 30px;
+
+    &__background {
+        // positioning
+        // position: absolute;
+        // z-index: -1;
+
+        // box model
+        // max-width: 100%;
+        margin: 0 -30px;
+
+        img {
+            width: 100%;
+        }
+
+        &--center {
+            // positioning
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+
+            border: 1px solid red;
+        }
+    }
 }

@@ -1,0 +1,14 @@
+.prices-table {
+    // visual
+    border-collapse: collapse;
+
+    tr {
+        // visual
+        border-bottom: 1px solid $white;
+    }
+
+    td {
+        // typography
+        font-size: 0.875rem;
+    }
+}
