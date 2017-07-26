@@ -13,13 +13,16 @@ body
     header.section
         .logo
             .logo__text Barber WILD
-            .logo__image: img(src="img/logo.png", alt="Barber WILD logo")
+            .logo__image: img(src="img/logo-white.svg", alt="Barber WILD logo white")
             .logo__est ESTD 2015
+
+        .section__background: img(src="img/backs/wild.jpg", alt="Barber WILD mascot")
+        
 
         h1.motto Мужская косметика с характером
 
     section.section
-        .big-letters: img(src="img/big-bw.png", alt="")
+        .big-letters: img(src="img/bw-letters.png", alt="Barber WILD BW letters")
 
         p Идея создания мужской косметики Barber WILD пришла в 2015 году. Во время работы два приятеля — барбер и химик решили, что существующие средства для волос и бороды недостаточно хороши, и в 2016 году создали собственную линию косметики, которая позволила им проявить свое мастерство в полной мере.
 
@@ -29,50 +32,55 @@ body
 
         p Но не только профессиональный барбер, но и каждый мужчина, который заботится о своем здоровье и облике, может теперь по достоинству оценить качество косметики Barber WILD, а также легко и быстро самостоятельно придать причёске, усам и бороде опрятный вид.
 
-        .orange-logo: img(src="img/logo-orange.png", alt="")
+        .orange-logo: img(src="img/logo-orange.svg", alt="Barber WILD logo orange")
+
+        .section__background: img(src="img/backs/razor-bottle.jpg", alt="Barber WILD Shave Oil with razor on top")
 
     section.section
         p В создании продукции принимают непосредственное участие профессиональные барберы, не понаслышке знающие обо всех нюансах практического применения косметики.
 
-        // Made by Barber for Barber
+        p Made by Barber <strong>for Barber</strong>
 
         p Это то, что с особым старанием было создано для самих себя — от барбера для барбера, и мы рады поделиться отличным результатом с вами!
 
         .certificate
-            .certificate__logo: img(src="img/eac.png", alt="")
+            // TODO: Add certification logo
+            .certificate__logo: img(src="img/eac.png", alt="EAC logo")
             p.certificate__text Вся продукция прошла лабораторные испытания и сертификацию, соответствует ГОСТам (31460-2012, 31692-2012 и 32852-2014) и техническому регламенту таможенного союза тр тс 009/2011 «О безопасности парфюмерно-косметической продукции».
 
-        .orange-logo: img(src="img/logo-orange.png", alt="")
+        .orange-logo: img(src="img/logo-orange.svg", alt="Barber WILD logo orange")
+
+        .section__background: img(src="img/backs/tattooed-man-matt-clay.jpg", alt="Tattooed man with Barber WILD Matt Clay")
 
     section.section
         article.product
             h2.product__title Матирующая глина Barber WILD Matt Clay
-            .product__image: img(src="img/products/", alt="")
+            .product__image: img(src="img/products/", alt="Матирующая глина Barber WILD Matt Clay")
             .product__background
 
         article.product
             h2.product__title Помады для волос Barber WILD Juicy и Ice Melon
-            .product__image: img(src="img/products/", alt="")
+            .product__image: img(src="img/products/", alt="Помады для волос Barber WILD Juicy и Ice Melon")
             .product__background
 
         article.product
             h2.product__title Мыло для бритья Barber WILD
-            .product__image: img(src="img/products/", alt="")
+            .product__image: img(src="img/products/", alt="Мыло для бритья Barber WILD")
             .product__background
 
         article.product
             h2.product__title Масло для бритья Barber WILD
-            .product__image: img(src="img/products/", alt="")
+            .product__image: img(src="img/products/", alt="Масло для бритья Barber WILD")
             .product__background
 
         article.product
             h2.product__title Бальзам после бритья Barber WILD Men's First Aid
-            .product__image: img(src="img/products/", alt="")
+            .product__image: img(src="img/products/", alt="Бальзам после бритья Barber WILD Men's First Aid")
             .product__background
 
         article.product
             h2.product__title Масло для бороды Barber WILD Idaho и Tennessee
-            .product__image: img(src="img/products/", alt="")
+            .product__image: img(src="img/products/", alt="Масло для бороды Barber WILD Idaho и Tennessee")
             .product__background
 
         article.product-soon
@@ -87,13 +95,47 @@ body
                 h2.product-soon__title Гель для бритья
                 p.product-soon__description на уникальной водной основе
 
-        .orange-logo: img(src="img/logo-orange.png", alt="")
+        .orange-logo: img(src="img/logo-orange.svg", alt="")
 
-    // TODO: продумать разметку
     section.section
+        .styling-image: img(src="img/hair-styling.jpg", alt="Hair Styling with Barber WILD Pomade")
+
+        .partners
+        // TODO: добавить логотипы партнёров
+
         p Всё больше мужских парикмахерских становятся представителями Barber WILD, предлагая своим клиентам нашу косметику.
 
         p Всё чаще барберы из Европы предпочитают Barber WILD иным маркам.
+
+        .instagram-ledder
+            .instagram-ledder__row
+                .instagram-ledder__title <a href="">#BarberWILD</a> в Instagram
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+            .instagram-ledder__row
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+            .instagram-ledder__row
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+            .instagram-ledder__row
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+            .instagram-ledder__row
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+            .instagram-ledder__row
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
+                .instagram-ledder__image: img(src="", alt="Barber WILD instagram image")
 
     section.section
         h2 Давайте проведём простое сравнение закупочных цен*
@@ -160,7 +202,9 @@ body
         p А значит стабильные продажи
         p Высокая маржинальность
         p А значит рост вашей прибыли
-        p Цены указаны в рублях (по состоянию на 01.07.2017), являются оптовыми, предоставлены официальными представителями или получены из официальных источников.
+        p <em>*</em> Цены указаны в рублях (по состоянию на 01.07.2017), являются оптовыми, предоставлены официальными представителями или получены из официальных источников.
+
+        .section__background: img(src="img/backs/cosmetics.jpg", alt="Barber WILD cosmetics")
 
     section.section
         p Нам импонирует Ваш барбершоп и мы хотим предложить вам сотрудничество!
@@ -172,3 +216,5 @@ body
         p <a href="tel:+79527947836">+7 952 794 78 36</a>
         p <a href="mailto:partners@barberwild.com">partners@barberwild.com</a>
         p <a href="">Получить Бесплатно</a>
+
+        .free-label Free

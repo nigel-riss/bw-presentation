@@ -1,0 +1,14 @@
+.logo {
+    &__text {
+        // typography
+        font-size: 0;
+
+        // visual
+        visibility: hidden;
+    }
+
+    &__est {
+        // typography
+        color: $orange;
+    }
+}
