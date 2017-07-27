@@ -1,3 +1,20 @@
-.parnters {
+.partners {
+    // box model
+    padding-bottom: 80px;
     
+    // typography
+    text-align: center;
+
+    &__image {
+        // box model
+        display: inline-block;
+        vertical-align: middle;
+        width: 120px;
+        margin: 10px;
+
+        img {
+            // box model
+            width: 100%;
+        }
+    }
 }

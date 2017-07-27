@@ -20,7 +20,7 @@ body
 
         .mascot: img(src="img/backs/wild.jpg", alt="Barber WILD mascot")
 
-    section.section
+    section.section.section--bottom-bg
         .big-letters: img(src="img/bw-letters.png", alt="Barber WILD BW letters")
 
         p Идея создания мужской косметики Barber WILD пришла в 2015 году. Во время работы два приятеля — барбер и химик решили, что существующие средства для волос и бороды недостаточно хороши, и в 2016 году создали собственную линию косметики, которая позволила им проявить свое мастерство в полной мере.
@@ -35,7 +35,7 @@ body
 
         .section__background: img(src="img/backs/razor-bottle.jpg", alt="Barber WILD Shave Oil with razor on top")
 
-    section.section
+    section.section.section--bottom-bg
         h2.orange-motto Made by Barber<br><strong>for Barber</strong>
 
         p В создании продукции принимают непосредственное участие профессиональные барберы, не понаслышке знающие обо всех нюансах практического применения косметики.
@@ -44,47 +44,50 @@ body
 
         .certificate
             .certificate__logo: img(src="img/eac-logo.svg", alt="EAC logo")
-            p.certificate__text Вся продукция прошла лабораторные испытания и сертификацию, соответствует ГОСТам (31460-2012, 31692-2012 и 32852-2014) и техническому регламенту таможенного союза тр тс 009/2011 «О безопасности парфюмерно-косметической продукции».
+            p.certificate__text Вся продукция прошла лабораторные испытания и сертификацию, соответствует ГОСТам (31460-2012, 31692-2012 и 32852-2014) и техническому регламенту таможенного союза тр тс 009/2011 «О&nbsp;безопасности парфюмерно-косметической продукции».
 
         .orange-logo: img(src="img/logo-orange.svg", alt="Barber WILD logo orange")
 
         .section__background: img(src="img/backs/tattooed-man-matt-clay.jpg", alt="Tattooed man with Barber WILD Matt Clay")
 
-    section.section
+    section.section.section--bottom-bg
+        //- h2.orange-motto Made by Barber<br><strong>for Barber</strong>
+        h2.orange-motto Наша продукция
+
         article.product
             h2.product__title Матирующая глина<br>Barber WILD<br>Matt Clay
             .product__content
-                .product__image: img(src="img/products/", alt="Матирующая глина Barber WILD Matt Clay")
+                .product__image: img(src="img/products/clay.png", alt="Матирующая глина Barber WILD Matt Clay")
                 .product__background
 
         article.product
             h2.product__title Помады для волос<br>Barber WILD<br>Juicy и Ice Melon
             .product__content
-                .product__image: img(src="img/products/", alt="Помады для волос Barber WILD Juicy и Ice Melon")
+                .product__image: img(src="img/products/pomade.png", alt="Помады для волос Barber WILD Juicy и Ice Melon")
                 .product__background
 
         article.product
             h2.product__title Мыло для бритья<br>Barber WILD
             .product__content
-                .product__image: img(src="img/products/", alt="Мыло для бритья Barber WILD")
+                .product__image: img(src="img/products/soap.png", alt="Мыло для бритья Barber WILD")
                 .product__background
 
         article.product
             h2.product__title Масло для бритья<br>Barber WILD
             .product__content
-                .product__image: img(src="img/products/", alt="Масло для бритья Barber WILD")
+                .product__image: img(src="img/products/shave-oil.png", alt="Масло для бритья Barber WILD")
                 .product__background
 
         article.product
             h2.product__title Бальзам после бритья<br>Barber WILD<br>Men's First Aid
             .product__content
-                .product__image: img(src="img/products/", alt="Бальзам после бритья Barber WILD Men's First Aid")
+                .product__image: img(src="img/products/balm.png", alt="Бальзам после бритья Barber WILD Men's First Aid")
                 .product__background
 
         article.product
             h2.product__title Масло для бороды<br>Barber WILD<br>Idaho и Tennessee
             .product__content
-                .product__image: img(src="img/products/", alt="Масло для бороды Barber WILD Idaho и Tennessee")
+                .product__image: img(src="img/products/oil.png", alt="Масло для бороды Barber WILD Idaho и Tennessee")
                 .product__background
 
         article.product-soon
@@ -146,7 +149,7 @@ body
                 .instagram-ledder__image: img(src="img/instagram/21.jpg", alt="Barber WILD instagram image")
 
     section.section
-        h2.golden-title Давайте проведём простое сравнение закупочных цен*
+        h2.golden-title.golden-title--pb Давайте проведём простое сравнение закупочных цен*
 
         table.prices-table
             tr

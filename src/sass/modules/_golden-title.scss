@@ -8,4 +8,9 @@
     font-family: $titleFont;
     font-size: 1.75rem;
     text-transform: uppercase;
+
+    &--pb {
+        // box model
+        padding-bottom: 40px;
+    }
 }

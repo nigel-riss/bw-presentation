@@ -418,10 +418,15 @@ body {
 .section {
   position: relative;
   padding: 30px;
-  margin-bottom: 20px;
-  border-bottom: 2px dotted #ffffff; }
+  margin-bottom: 20px; }
+  .section--bottom-bg {
+    padding-bottom: 0; }
   .section__background {
-    margin: 0 -30px; }
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    margin: 0 -30px;
+    font-size: 0; }
     .section__background img {
       width: 100%; }
     .section__background--center {
@@ -473,10 +478,12 @@ body {
 
 .orange-logo {
   margin: 0 auto;
+  margin-top: 160px;
   padding: 20px 0;
   text-align: center; }
 
 .orange-motto {
+  padding-bottom: 40px;
   color: #d5a353;
   font-family: "IntroBold";
   font-size: 2rem;
@@ -496,7 +503,14 @@ body {
     position: relative; }
   .product__image {
     position: absolute;
-    z-index: 2; }
+    left: 0;
+    right: 0;
+    z-index: 2;
+    margin: 0 auto;
+    width: 290px;
+    text-align: center; }
+    .product__image img {
+      width: 100%; }
   .product__background {
     position: relative;
     z-index: 1;
@@ -568,6 +582,17 @@ body {
     .instagram-ledder__image img {
       width: 100%; }
 
+.partners {
+  padding-bottom: 80px;
+  text-align: center; }
+  .partners__image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 120px;
+    margin: 10px; }
+    .partners__image img {
+      width: 100%; }
+
 .golden-title {
   margin-bottom: 0;
   padding-bottom: 0;
@@ -575,9 +600,12 @@ body {
   font-family: "IntroBold";
   font-size: 1.75rem;
   text-transform: uppercase; }
+  .golden-title--pb {
+    padding-bottom: 40px; }
 
 .prices-table {
   margin: 0 -20px;
+  margin-bottom: 40px;
   border-collapse: collapse; }
   .prices-table tr {
     border-bottom: 1px solid #ffffff; }
@@ -585,7 +613,7 @@ body {
     padding: 5px;
     font-size: 1rem;
     text-align: center; }
-    .prices-table th:nth-of-type(4) {
+    .prices-table th:nth-of-type(5) {
       display: none; }
   .prices-table td {
     padding: 5px;

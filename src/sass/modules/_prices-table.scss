@@ -1,6 +1,7 @@
 .prices-table {
     // box model
     margin: 0 -20px;
+    margin-bottom: 40px;
 
     // visual
     border-collapse: collapse;
@@ -18,7 +19,7 @@
         font-size: 1rem;
         text-align: center;
         
-        &:nth-of-type(4) {
+        &:nth-of-type(5) {
             // box model
             display: none;
         }
