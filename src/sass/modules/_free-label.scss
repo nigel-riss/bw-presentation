@@ -1,0 +1,26 @@
+.free-label {
+    // positioning
+    position: absolute;
+    bottom: 180px;
+    right: 20px;
+    z-index: 2;
+
+    // box model
+    height: 120px;
+    width: 120px;
+    padding-top: 40px;
+
+    // typography
+    color: $black;
+    font-family: $titleFont;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+
+    // visual
+    // background-color: $orange;
+    background-image: url('img/gold-label.svg');
+    background-size: 100%;
+    border-radius: 50%;
+    text-shadow: 0 -1px 0 rgba($white, 0.5);
+}

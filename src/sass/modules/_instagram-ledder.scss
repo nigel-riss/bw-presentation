@@ -6,7 +6,7 @@
         // typography
         text-align: right;
 
-        &:nth-of-type(n + 4) {
+        &:nth-of-type(n + 5) {
             // box model
             display: none;
         }
@@ -15,6 +15,7 @@
     &__title {
         // box model
         padding: 20px 0;
+        padding-bottom: 40px;
         
         // typography
         font-family: $titleFont;

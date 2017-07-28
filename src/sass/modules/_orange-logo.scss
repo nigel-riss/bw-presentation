@@ -1,8 +1,28 @@
 .orange-logo {
+    // positioning
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+
     // box model
     margin: 0 auto;
-    margin-top: 160px;
+    // margin-top: 180px;
     padding: 20px 0;
+    width: 45%;
     
-    text-align: center;
+    text-align: left;
+
+    &--center {
+        // positioning
+        left: 0;
+        right: 0;
+        
+        // typography
+        text-align: center;
+    }
+
+    img {
+        // box model
+        width: 100%;
+    }
 }

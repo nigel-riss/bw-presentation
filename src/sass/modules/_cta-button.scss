@@ -1,0 +1,17 @@
+.cta-button {
+    // box model
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    
+    // typography
+    color: $white;
+    font-family: $titleFont;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    // visual
+    background-color: $green;
+    border-radius: 7px;
+}

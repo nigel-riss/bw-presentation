@@ -7,7 +7,7 @@
     padding: 30px;
 
     //experimental
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
     // border: 5px dotted $white;
     // border-bottom: 2px dotted $white;
 
@@ -15,15 +15,62 @@
         padding-bottom: 0;
     }
 
+    &--inverse {
+        // visual
+        background-color: $orange;
+
+        p {
+            // typography
+            color: $black;
+        }
+
+        .section__background {
+            // box model
+            margin-top: -80px;
+        }
+    }
+
+    &--products {
+        // box model
+        padding-bottom: 100px;
+
+        // visual
+        background-color: $white;
+    }
+
+    &--partners {
+        // box model
+        padding-top: 0;
+    }
+
+    &--compare {
+        // box model
+        padding-bottom: 10px;
+
+        // visual
+        background-color: $white;
+
+        p {
+            // typography
+            color: $black;
+        }
+
+        .section__background {
+            // box model
+            display: none;
+        }
+    }
+
     &__background {
         // positioning
-        position: absolute;
-        bottom: 0;
-        z-index: -1;
+        position: relative;
+        // bottom: 0;
+        // z-index: -1;
 
         // box model
         // max-width: 100%;
         margin: 0 -30px;
+        // margin-top: -60px;
 
         // typography
         font-size: 0;

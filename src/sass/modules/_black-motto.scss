@@ -1,0 +1,16 @@
+.black-motto {
+    // box model
+    padding-bottom: 20px;
+    
+    // typography
+    color: $black;
+    font-family: $titleFont;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+
+    strong {
+        font-size: 1.37em;
+    }
+}

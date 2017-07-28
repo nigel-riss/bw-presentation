@@ -1,0 +1,23 @@
+.note {
+    // box model
+    margin-top: 50px;
+    padding-top: 5px;
+
+    // typography
+    font-size: 1rem;
+    line-height: 1.2;
+
+    // visual
+    border-top: 1px solid rgba($black, 0.5);
+
+    em {
+        // box model
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: -20px;
+
+        // typography
+        color: $orange;
+        font-size: 1.8rem;
+    }
+}

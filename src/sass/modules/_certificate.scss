@@ -1,4 +1,7 @@
 .certificate {
+    // box model
+    padding-bottom: 90px;
+
     &__logo {
         // box model
         // margin: 0 auto;
@@ -8,7 +11,8 @@
 
     &__text {
         // typography
+        // font-family: $titleFont;
         font-size: 0.8rem;
-        text-transform: uppercase;
+        // text-transform: uppercase;
     }
 }

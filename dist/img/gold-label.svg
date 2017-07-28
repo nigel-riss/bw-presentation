@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="42.3332mm" height="42.3332mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4233 4233"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:url(#id0)}
+    .fil1 {fill:url(#id1)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="833.207" y1="3313.82" x2="3504.03" y2="969.099">
+   <stop offset="0" style="stop-opacity:1; stop-color:#D5A353"/>
+   <stop offset="0.458824" style="stop-opacity:1; stop-color:#D5A353"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#966619"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="3026.02" y1="810.6" x2="1311.22" y2="3478.09">
+   <stop offset="0" style="stop-opacity:1; stop-color:#D5A353"/>
+   <stop offset="0.133333" style="stop-opacity:1; stop-color:#B68536"/>
+   <stop offset="0.478431" style="stop-opacity:1; stop-color:#D5A353"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#966619"/>
+  </linearGradient>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2145208167600">
+   <polygon class="fil0" points="2169,365 2304,465 2454,388 2572,509 2732,457 2829,595 2995,569 3069,721 3237,722 3286,883 3452,912 3474,1079 3633,1134 3628,1302 3776,1382 3744,1547 3877,1649 3819,1807 3935,1930 3852,2077 3946,2216 3841,2347 3912,2500 3787,2613 3832,2775 3691,2867 3709,3034 3555,3101 3547,3270 3384,3311 3348,3476 3181,3491 3119,3648 2952,3636 2866,3781 2702,3742 2594,3872 2439,3807 2312,3918 2169,3829 2025,3918 1898,3807 1743,3872 1635,3742 1471,3781 1386,3636 1218,3648 1157,3491 989,3476 954,3311 791,3270 782,3101 628,3034 647,2867 505,2775 550,2613 425,2500 496,2347 391,2216 485,2077 403,1930 518,1807 460,1649 593,1547 561,1382 710,1302 704,1134 864,1079 886,912 1051,883 1100,722 1268,721 1342,569 1508,595 1605,457 1765,509 1883,388 2033,465 "/>
+   <path class="fil1" d="M2169 3730c875,0 1585,-710 1585,-1586 0,-875 -710,-1585 -1585,-1585 -876,0 -1586,710 -1586,1585 0,876 710,1586 1586,1586zm0 -107c816,0 1478,-662 1478,-1479 0,-816 -662,-1478 -1478,-1478 -817,0 -1479,662 -1479,1478 0,817 662,1479 1479,1479z"/>
+  </g>
+ </g>
+</svg>

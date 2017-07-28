@@ -1,0 +1,22 @@
+.link {
+    // box model
+    display: block;
+
+    // typography
+    color: $orange;
+    font-family: $titleFont;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &--phone {
+        // typography
+        font-size: 2.3rem;
+    }
+
+    &--mail {
+        // typography
+        font-size: 1.15rem;
+    }
+}
