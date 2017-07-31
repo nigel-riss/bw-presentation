@@ -6,6 +6,11 @@
     // typography
     text-align: center;
 
+    @include atTabletsPortrait {
+        // box model
+        padding-bottom: 52vh;
+    }
+
     &__text {
         // typography
         font-size: 0;
@@ -19,6 +24,11 @@
         max-width: 100%;
         margin: 0 auto;
         padding: 0 10px;
+
+        @include atTabletsPortrait {
+            // box model
+            max-width: 80%;
+        }
 
         img {
             // box model

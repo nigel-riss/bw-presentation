@@ -20,22 +20,45 @@
         font-size: 1rem;
         text-align: center;
 
-        
+        @include atTabletsPortrait {
+            // box model
+            padding-bottom: 20px;
+
+            // typography
+            font-size: 1.25rem;
+            font-size: 1.5rem;
+        }
+
         &:nth-of-type(5) {
             // box model
             display: none;
+
+            @include atTabletsPortrait {
+                // box model
+                display: table-cell;
+            }
         }
     }
 
     td {
         // box model
         padding: 5px;
+        width: 100%;
 
         // typography
         color: $black;
         font-family: $titleFont;
         font-size: 0.875rem;
         text-align: center;
+
+        @include atTabletsPortrait {
+            // box model
+            // padding-left: 35px;
+            width: 15%;
+
+            // typography
+            font-size: 1.25rem;
+        }
         
         small {
             // typography
@@ -47,16 +70,35 @@
             font-family: $mainFont;
             font-size: 1rem;
             text-align: left;
+
+            @include atTabletsPortrait {
+                // typography
+                font-size: 1.5rem;
+            }
         }
 
         &:nth-of-type(2) {
             // typography
             color: $orange;
+
+            // visual
+            background-color: $orange;
+            color: $white;
+            
+            @include atTabletsPortrait {
+                // typography
+                // font-size: 1.35rem;
+            }
         }
 
-        &:nth-of-type(4) {
+        &:nth-of-type(5) {
             // box model
             display: none;
+
+            @include atTabletsPortrait {
+                // box model
+                display: table-cell;
+            }
         }
     }
 }

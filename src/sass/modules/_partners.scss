@@ -12,6 +12,11 @@
         width: 120px;
         margin: 10px;
 
+        @include atTabletsPortrait {
+            width: 140px;
+            margin: 20px;
+        }
+
         img {
             // box model
             width: 100%;

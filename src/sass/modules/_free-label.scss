@@ -22,5 +22,18 @@
     background-image: url('img/gold-label.svg');
     background-size: 100%;
     border-radius: 50%;
-    text-shadow: 0 -1px 0 rgba($white, 0.5);
+    text-shadow: 0 1px 0 rgba($white, 0.5);
+
+    @include atTabletsPortrait {
+        // positioning
+        bottom: 370px;
+
+        // box model
+        height: 200px;
+        width: 200px;
+        padding-top: 65px;
+
+        // typography
+        font-size: 3rem;
+    }
 }

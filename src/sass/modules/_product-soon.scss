@@ -5,6 +5,9 @@
     // box model
     margin: 20px 0;
 
+    // typography
+    text-align: left;
+
     &__icon {
         // positioning
         position: absolute;
@@ -42,6 +45,10 @@
         // visual
         background-color: $black;
         border: 2px dotted $white;
+
+        @include atTabletsPortrait {
+            padding-left: 35px;
+        }
     }
 
     &__title {
@@ -61,5 +68,10 @@
 
         // typography
         font-size: 0.875rem;
+
+        @include atTabletsPortrait {
+            // typography
+            font-size: 1.25rem;
+        }
     }
 }

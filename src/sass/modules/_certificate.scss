@@ -1,12 +1,29 @@
 .certificate {
     // box model
-    padding-bottom: 90px;
+    padding-bottom: 10px;
+
+    // typography
+    font-size: 0;
+
+    @include atTabletsPortrait {
+        // box model
+        padding: 20px 0;
+        padding-bottom: 40px;
+    }
 
     &__logo {
         // box model
-        // margin: 0 auto;
 
+        // typography
         text-align: center;
+
+        @include atTabletsPortrait {
+            // box model
+            display: inline-block;
+            vertical-align: middle;
+            height: 91px;
+            width: 91px;
+        }
     }
 
     &__text {
@@ -14,5 +31,16 @@
         // font-family: $titleFont;
         font-size: 0.8rem;
         // text-transform: uppercase;
+
+        @include atTabletsPortrait {
+            // box model
+            display: inline-block;
+            vertical-align: middle;
+            width: calc(100% - 92px);
+            padding-left: 20px;
+
+            // typography
+            font-size: 1rem;
+        }
     }
 }

@@ -1,6 +1,7 @@
 .cta-button {
     // box model
     display: block;
+    max-width: 400px;
     margin: 0 auto;
     padding: 10px;
     
@@ -14,4 +15,13 @@
     // visual
     background-color: $green;
     border-radius: 7px;
+    border-top: 3px solid #00cc44;
+    border-bottom: 3px solid #007728;
+    transition: all 0.5s ease-out;
+
+    &:hover {
+        // visual
+        background-color: #00cc44;
+        background-image: linear-gradient(to left,#009933, #00cc44, #009933);
+    }
 }
