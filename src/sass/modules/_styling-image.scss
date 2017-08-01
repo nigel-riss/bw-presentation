@@ -1,8 +1,13 @@
 .styling-image {
     // box model
-    // width: 100%;
     margin: 0 -30px;
-    // border: 1px solid red;
+
+    @include atDesktop {
+        // box model
+        width: 600px;
+        margin: 0;
+        margin-left: -60px;
+    }
 
     img {
         // box model

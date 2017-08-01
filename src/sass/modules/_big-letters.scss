@@ -13,4 +13,10 @@
         // box model
         max-width: 500px;
     }
+
+    @include atDesktop {
+        // box model
+        display: inline-block;
+        margin: 0;
+    }
 }

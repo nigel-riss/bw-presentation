@@ -21,4 +21,10 @@ body {
     // visual
     background-color: $black;
     overflow-x: hidden;
+
+    @include atDesktop {
+        // visual
+        // background-color: $white;
+        background-color: grey;
+    }
 }

@@ -11,6 +11,16 @@
         padding-bottom: 40px;
     }
 
+    @include atDesktop {
+        // box model
+        width: 450px;
+        margin-top: 60px;
+        padding: 20px 10px;
+
+        // visual
+        background-color: $orange;
+    }
+
     &__logo {
         // box model
 
@@ -23,6 +33,11 @@
             vertical-align: middle;
             height: 91px;
             width: 91px;
+        }
+
+        @include atDesktop {
+            // box model
+            // vertical-align: top;
         }
     }
 
@@ -41,6 +56,22 @@
 
             // typography
             font-size: 1rem;
+        }
+
+        @include atDesktop {
+            // box model
+            // vertical-align: top;
+            padding-top: 0;
+            margin: 0;
+
+            // typography
+            color: $black;
+            line-height: 1.3;
+            font-size: 0.875rem !important;
+            // font-family: $titleFont;
+
+            // box model
+            width: 330px;
         }
     }
 }

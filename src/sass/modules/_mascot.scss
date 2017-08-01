@@ -1,7 +1,7 @@
 .mascot {
     // positioning
     position: absolute;
-    bottom: 0;
+    // bottom: 0;
     left: 0;
     right: 0;
     top: 100px;
@@ -9,7 +9,21 @@
     z-index: -1;
 
     // box model
+    margin: 0 auto;
     max-width: 100%;
+
+    @include atTabletsLandscape {
+        // box model
+        max-width: 60%;
+    }
+
+    @include atDesktop {
+        // positioning
+        z-index: 0;
+
+        // box model
+        width: 800px;
+    }
 
     img {
         // box model

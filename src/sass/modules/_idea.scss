@@ -1,0 +1,9 @@
+.idea {
+    @include atDesktop {
+        // box model
+        display: inline-block;
+        vertical-align: top;
+        width: 500px;
+        padding-left: 40px;
+    }
+}

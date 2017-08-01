@@ -6,9 +6,24 @@
     // visual
     border-collapse: collapse;
 
+    @include atDesktop {
+        // positioning
+        position: relative;
+        z-index: 1;
+
+        // box model
+        width: 600px;
+        margin-left: 30px;
+    }
+
     tr {
         // visual
         border-bottom: 1px solid $black;
+
+        @include atDesktop {
+            // visual
+            border-bottom: 1px solid rgba($white, 0.25);
+        }
     }
 
     th {
@@ -19,6 +34,7 @@
         color: $black;
         font-size: 1rem;
         text-align: center;
+        text-transform: uppercase;
 
         @include atTabletsPortrait {
             // box model
@@ -27,6 +43,12 @@
             // typography
             font-size: 1.25rem;
             font-size: 1.5rem;
+        }
+
+        @include atDesktop {
+            // typography
+            color: $white;
+            font-size: 1rem;
         }
 
         &:nth-of-type(5) {
@@ -49,25 +71,33 @@
         color: $black;
         font-family: $titleFont;
         font-size: 0.875rem;
+        line-height: 1.2;
         text-align: center;
 
         @include atTabletsPortrait {
             // box model
-            // padding-left: 35px;
             width: 15%;
 
             // typography
             font-size: 1.25rem;
         }
+
+        @include atDesktop {
+            // typography
+            color: $white;
+            font-size: 1rem;
+        }
         
         small {
             // typography
             font-family: $mainFont;
+            font-size: 0.8em;
         }
 
         &:nth-of-type(1) {
             // typography
-            font-family: $mainFont;
+            // font-family: $mainFont;
+            font-family: $titleFont;
             font-size: 1rem;
             text-align: left;
 
@@ -75,19 +105,31 @@
                 // typography
                 font-size: 1.5rem;
             }
+
+            @include atDesktop {
+                // typography
+                font-size: 1.25rem;
+            }
         }
 
         &:nth-of-type(2) {
             // typography
-            color: $orange;
+            color: $white;
 
             // visual
             background-color: $orange;
-            color: $white;
             
             @include atTabletsPortrait {
                 // typography
                 // font-size: 1.35rem;
+            }
+
+            @include atDesktop {
+                // typography
+                color: $orange;
+
+                // visual
+                background-color: transparent;
             }
         }
 
@@ -100,5 +142,10 @@
                 display: table-cell;
             }
         }
+    }
+
+    hr {
+        // visual
+        opacity: 0.35;
     }
 }

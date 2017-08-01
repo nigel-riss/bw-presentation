@@ -10,10 +10,27 @@
         padding: 40px;
     }
 
+    @include atDesktop {
+        // box model
+        height: 800px;
+        max-width: 1200px;
+        margin: 10px auto;
+
+        // visual
+        background-color: $black;
+        border: 5px solid white;
+        overflow: hidden;
+    }
+
     &--header {
         @include atTabletsPortrait {
             // box model
             height: 96vh;
+        }
+
+        @include atDesktop {
+            // box model
+            height: 800px;
         }
     }
 
@@ -21,13 +38,62 @@
         padding-bottom: 0;
     }
 
+    &--letters {
+        p {
+            @include atDesktop {
+                // box model
+                width: 550px;
+            }
+        }
+
+        .section__background {
+            @include atDesktop {
+                // positioning
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                z-index: 0;
+
+                // box model
+                width: 700px;
+            }
+        }
+    }
+
     &--inverse {
+        // typography
+        color: $black;
+
         // visual
         background-color: $orange;
 
-        p {
+        @include atDesktop {
             // typography
-            color: $black;
+            color: $white;
+
+            // visual
+            background-color: $black;
+        }
+
+        .section__content {
+            @include atDesktop {
+                // box model
+                width: 460px;
+            }
+        }
+
+        .section__background {
+            @include atDesktop {
+                // positioning
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                z-index: 0;
+
+                // box model
+                height: 100%;
+                width: auto;
+            }
         }
     }
 
@@ -45,11 +111,23 @@
             // box model
             padding-bottom: 160px;
         }
+
+        @include atDesktop {
+            // visual
+            background-color: $black;
+        }
     }
 
     &--partners {
         // box model
         padding-top: 0;
+
+        .section__content {
+            @include atDesktop {
+                width: 550px;
+                margin-top: -20px;
+            }
+        }
     }
 
     &--compare {
@@ -59,15 +137,89 @@
         // visual
         background-color: $white;
 
+        @include atDesktop {
+            // visual
+            background-color: $black;
+        }
+
         p {
             // typography
             color: $black;
         }
 
+        .section__content {
+            @include atDesktop {
+                // positioning
+                position: absolute;
+                right: 20px;
+                top: 55px;
+                z-index: 1;
+
+                // box model
+                width: 420px;
+
+                p {
+                    // box model
+                    margin: 0;
+
+                    // typography
+                    color: $white;
+                    font-size: 1.25rem;
+                }
+            }
+        }
+
         .section__background {
             // box model
             display: none;
+
+            @include atDesktop {
+                // positioning
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                z-index: 0;
+
+                // box model
+                display: block;
+                width: auto;
+            }
         }
+    }
+
+    &--cta {
+        .section__content {
+            @include atDesktop {
+                // positioning
+                position: relative;
+                z-index: 1;
+            }
+        }
+
+        .section__background {
+            @include atDesktop {
+                // positioning
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 0;
+
+                // box model
+                width: 800px;
+            }
+        }
+    }
+
+    p {
+        @include atDesktop {
+            font-size: 1rem;
+        }
+    }
+
+    &__content {
+        // positioning
+        position: relative;
+        z-index: 1;
     }
 
     &__background {
@@ -76,7 +228,7 @@
 
         // box model
         margin: 0 -30px;
-        min-width: 100vw;
+        width: 100vw;
 
         // typography
         font-size: 0;

@@ -12,6 +12,14 @@
     
     text-align: left;
 
+    @include atDesktop {
+        // positioning
+        bottom: 10px;
+        
+        // box model
+        width: 200px;
+    }
+
     &--center {
         // positioning
         left: 0;

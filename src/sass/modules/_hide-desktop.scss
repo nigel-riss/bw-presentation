@@ -1,0 +1,6 @@
+.hide-desktop {
+    @include atDesktop {
+        // box model
+        display: none;
+    }
+}

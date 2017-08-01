@@ -2,6 +2,13 @@
     // typography
     font-size: 0;
 
+    @include atDesktop {
+        // positioning
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
     &__row {
         // typography
         text-align: right;
@@ -9,6 +16,11 @@
         &:nth-of-type(n + 5) {
             // box model
             display: none;
+
+            @include atDesktop {
+                // box model
+                display: block;
+            }
         }
     }
 
@@ -24,6 +36,16 @@
         text-align: center;
         text-transform: uppercase;
 
+        @include atDesktop {
+            // positioning
+            position: absolute;
+            right: 160px;
+            top: 30px;
+
+            // typography
+            font-size: 1.8rem;
+        }
+
         a {
             // typography
             color: $orange;
@@ -36,6 +58,11 @@
         // box model
         display: inline-block;
         width: 100px;
+
+        @include atDesktop {
+            // box model
+            width: 132px;
+        }
 
         img {
             // box model

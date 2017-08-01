@@ -11,6 +11,21 @@
         padding-bottom: 52vh;
     }
 
+    @include atTabletsLandscape {
+        // box model
+        padding-bottom: 48vh;
+    }
+
+    @include atDesktop {
+        // positioning
+        position: relative;
+        z-index: 1;
+
+        // box model
+        padding-bottom: 440px;
+        padding-top: 10px;
+    }
+
     &__text {
         // typography
         font-size: 0;
@@ -28,6 +43,17 @@
         @include atTabletsPortrait {
             // box model
             max-width: 80%;
+        }
+
+        @include atTabletsLandscape {
+            // box model
+            width: 50vw;
+            padding-top: 0;
+        }
+
+        @include atDesktop {
+            // box model
+            width: 600px;
         }
 
         img {

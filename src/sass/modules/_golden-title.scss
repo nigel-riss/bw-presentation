@@ -9,8 +9,23 @@
     font-size: 1.75rem;
     text-transform: uppercase;
 
+    @include atDesktop {
+        // typography
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+
     &--pb {
         // box model
         padding-bottom: 40px;
+
+        @include atDesktop {
+            // box model
+            padding-left: 20px;
+            padding-bottom: 35px;
+
+            // typography
+            font-size: 1.2rem;
+        }
     }
 }

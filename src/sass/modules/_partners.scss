@@ -5,6 +5,11 @@
     // typography
     text-align: center;
 
+    @include atDesktop {
+        // typography
+        text-align: left;
+    }
+
     &__image {
         // box model
         display: inline-block;
@@ -13,8 +18,18 @@
         margin: 10px;
 
         @include atTabletsPortrait {
+            // box model
             width: 140px;
             margin: 20px;
+        }
+
+        @include atDesktop {
+            // box model
+            width: 115px;
+            margin: 0;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
         }
 
         img {
