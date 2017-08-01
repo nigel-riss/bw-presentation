@@ -17,9 +17,15 @@
     }
 
     @include atDesktop {
+        // positioning
+        position: relative;
+
         // box model
-        border: 1px solid red;
-        margin: 20px;
+        // border: 1px solid red;
+        margin: 40px;
+        margin-top: 10px;
+        // margin-right: 0px;
+        padding-top: 40px;
     }
 
     &__title {
@@ -30,6 +36,11 @@
         text-align: center;
 
         @include atDesktop {
+            // positioning
+            position: absolute;
+            top: -25px;
+            left: -60px;
+
             // box model
             height: 60px;
 
@@ -37,6 +48,7 @@
             color: $white;
             font-family: $mainFont;
             font-size: 1rem;
+            line-height: 1.2;
             text-align: left;
         }
     }
@@ -63,6 +75,15 @@
         // typography
         text-align: center;
 
+        @include atDesktop {
+            // positioning
+            left: auto;
+            right: -25px;
+
+            // box model
+            width: 230px;
+        }
+
         img {
             // box model
             width: 100%;
@@ -84,6 +105,15 @@
         // visual
         border-radius: 50%;
         background-color: $orange;
-        box-shadow: 0 0 0 2px $white, 0 0 0 4px $orange;
+        box-shadow: 0 0 0 3px $white, 0 0 0 6px $orange;
+
+        @include atDesktop {
+            // box model
+            height: 200px;
+            width: 200px;
+
+            // visual
+            box-shadow: 0 0 0 3px $black, 0 0 0 6px $orange;
+        }
     }
 }

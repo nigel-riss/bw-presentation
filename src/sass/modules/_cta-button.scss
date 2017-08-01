@@ -24,4 +24,14 @@
         background-color: #00cc44;
         background-image: linear-gradient(to left,#009933, #00cc44, #009933);
     }
+
+    @include atDesktop {
+        // positioning
+        position: absolute;
+        top: 540px;
+        left: 100px;
+
+        // box model
+        width: 400px;
+    }
 }

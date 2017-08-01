@@ -193,6 +193,10 @@
                 // positioning
                 position: relative;
                 z-index: 1;
+
+                // box model
+                padding-left: 630px;
+                padding-top: 100px;
             }
         }
 

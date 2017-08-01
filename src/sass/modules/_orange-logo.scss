@@ -15,7 +15,7 @@
     @include atDesktop {
         // positioning
         bottom: 10px;
-        
+
         // box model
         width: 200px;
     }
@@ -27,6 +27,15 @@
         
         // typography
         text-align: center;
+
+        @include atDesktop {
+            // positioning
+            left: auto;
+            right: 50px;
+            
+            // typography
+            text-align: right;
+        }
     }
 
     img {

@@ -517,7 +517,9 @@ body {
   @media (min-width: 1200px) {
     .section--cta .section__content {
       position: relative;
-      z-index: 1; } }
+      z-index: 1;
+      padding-left: 630px;
+      padding-top: 100px; } }
   @media (min-width: 1200px) {
     .section--cta .section__background {
       position: absolute;
@@ -650,6 +652,11 @@ body {
     left: 0;
     right: 0;
     text-align: center; }
+    @media (min-width: 1200px) {
+      .orange-logo--center {
+        left: auto;
+        right: 50px;
+        text-align: right; } }
   .orange-logo img {
     width: 100%; }
 
@@ -699,8 +706,10 @@ body {
       margin-bottom: 60px; } }
   @media (min-width: 1200px) {
     .product {
-      border: 1px solid red;
-      margin: 20px; } }
+      position: relative;
+      margin: 40px;
+      margin-top: 10px;
+      padding-top: 40px; } }
   .product__title {
     color: #000000;
     font-family: "IntroBold";
@@ -708,10 +717,14 @@ body {
     text-align: center; }
     @media (min-width: 1200px) {
       .product__title {
+        position: absolute;
+        top: -25px;
+        left: -60px;
         height: 60px;
         color: #ffffff;
         font-family: "IntroLight";
         font-size: 1rem;
+        line-height: 1.2;
         text-align: left; } }
   .product__content {
     position: relative;
@@ -724,6 +737,11 @@ body {
     margin: 0 auto;
     width: 290px;
     text-align: center; }
+    @media (min-width: 1200px) {
+      .product__image {
+        left: auto;
+        right: -25px;
+        width: 230px; } }
     .product__image img {
       width: 100%; }
   .product__background {
@@ -736,12 +754,22 @@ body {
     margin: 0 auto;
     border-radius: 50%;
     background-color: #d5a353;
-    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #d5a353; }
+    box-shadow: 0 0 0 3px #ffffff, 0 0 0 6px #d5a353; }
+    @media (min-width: 1200px) {
+      .product__background {
+        height: 200px;
+        width: 200px;
+        box-shadow: 0 0 0 3px #000000, 0 0 0 6px #d5a353; } }
 
 .product-soon {
   position: relative;
   margin: 20px 0;
   text-align: left; }
+  @media (min-width: 1200px) {
+    .product-soon {
+      display: inline-block;
+      vertical-align: top;
+      width: 400px; } }
   .product-soon__icon {
     position: absolute;
     height: 100px;
@@ -874,9 +902,18 @@ body {
         padding-bottom: 35px;
         font-size: 1.2rem; } }
 
-.golden-text {
+p.golden-text {
   color: #d5a353;
   font-family: "IntroBold"; }
+  @media (min-width: 1200px) {
+    p.golden-text {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+      margin-top: 0;
+      padding-top: 0;
+      text-align: center;
+      font-size: 1.25rem; } }
 
 .prices-table {
   margin: 0 -20px;
@@ -1031,6 +1068,12 @@ p.note {
   .cta-button:hover {
     background-color: #00cc44;
     background-image: linear-gradient(to left, #009933, #00cc44, #009933); }
+  @media (min-width: 1200px) {
+    .cta-button {
+      position: absolute;
+      top: 540px;
+      left: 100px;
+      width: 400px; } }
 
 .link {
   display: block;
@@ -1098,3 +1141,8 @@ p.note {
       width: 200px;
       padding-top: 65px;
       font-size: 3rem; } }
+  @media (min-width: 1200px) {
+    .free-label {
+      bottom: 400px;
+      right: auto;
+      left: 400px; } }

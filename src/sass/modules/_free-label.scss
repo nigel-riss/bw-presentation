@@ -36,4 +36,11 @@
         // typography
         font-size: 3rem;
     }
+
+    @include atDesktop {
+        // positioning
+        bottom: 400px;
+        right: auto;
+        left: 400px;
+    }
 }

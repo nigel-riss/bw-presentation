@@ -8,6 +8,13 @@
     // typography
     text-align: left;
 
+    @include atDesktop {
+        // box model
+        display: inline-block;
+        vertical-align: top;
+        width: 400px;
+    }
+
     &__icon {
         // positioning
         position: absolute;
