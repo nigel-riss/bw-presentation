@@ -10,6 +10,7 @@
     text-decoration: none;
     text-transform: uppercase;
 
+
     &--phone {
         // positioning
         position: relative;
@@ -33,9 +34,22 @@
         transition: all 0.3s ease-out;
         text-shadow: 0 2px 0 #ffc363;
 
+        @include atSmall {
+            // typography
+            font-size: 1.25rem;
+        }
+
         @include atTabletsPortrait {
             // typography
             font-size: 2.3rem;
+        }
+
+        @include atDesktop {
+            // positioning
+            // transform: translateX(-40px);
+
+            // box model
+            margin: 40px 0;
         }
 
         &:hover {
@@ -53,6 +67,11 @@
             display: inline-block;
             vertical-align: top;
             height: 40px;
+
+            @include atSmall {
+                // box model
+                height: 20px;
+            }
         }
     }
 
@@ -63,6 +82,16 @@
 
         // visual
         transition: all 0.3s ease-out;
+
+        @include atSmall {
+            // typography
+            font-size: 1rem;
+        }
+
+        @include atDesktop {
+            // typography
+            text-align: left;
+        }
 
         &:hover {
             // visual

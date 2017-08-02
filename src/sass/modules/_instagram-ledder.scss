@@ -1,4 +1,7 @@
 .instagram-ledder {
+    // box model
+    display: none;
+
     // typography
     font-size: 0;
 
@@ -9,17 +12,23 @@
         right: 0;
     }
 
+
     &__row {
+        // box model
+        display: none;
+        
         // typography
         text-align: right;
 
-        &:nth-of-type(n + 5) {
+        @include atDesktop {
             // box model
-            display: none;
+            display: block;
+        }
 
+        &--mobile {
             @include atDesktop {
                 // box model
-                display: block;
+                display: none;
             }
         }
     }

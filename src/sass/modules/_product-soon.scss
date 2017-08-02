@@ -12,7 +12,13 @@
         // box model
         display: inline-block;
         vertical-align: top;
-        width: 400px;
+        width: 370px;
+        margin-right: 30px;
+
+        &--shampoo {
+            // box model
+            width: 450px;
+        }
     }
 
     &__icon {

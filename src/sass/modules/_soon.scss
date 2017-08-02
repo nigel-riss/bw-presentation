@@ -1,0 +1,6 @@
+.soon {
+    @include atDesktop {
+        // typography
+        text-align: left;
+    }
+}

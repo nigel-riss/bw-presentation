@@ -70,7 +70,7 @@
 
         // box model
         margin: 0 auto;
-        width: 290px;
+        width: 260px;
 
         // typography
         text-align: center;
@@ -93,13 +93,13 @@
     &__background {
         // positioning
         position: relative;
-        left: 10px;
+        // left: 10px;
         top: 10px;
         z-index: 1;
 
         // box model
-        height: 270px;
-        width: 270px;
+        height: 240px;
+        width: 240px;
         margin: 0 auto;
 
         // visual

@@ -18,11 +18,17 @@
     border-top: 3px solid #00cc44;
     border-bottom: 3px solid #007728;
     transition: all 0.5s ease-out;
+    text-shadow: 0 -1px 0 #007728;
 
     &:hover {
         // visual
         background-color: #00cc44;
         background-image: linear-gradient(to left,#009933, #00cc44, #009933);
+    }
+
+    @include atSmall {
+        // typography
+        font-size: 1rem;
     }
 
     @include atDesktop {

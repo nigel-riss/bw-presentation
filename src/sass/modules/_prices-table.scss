@@ -32,9 +32,14 @@
 
         // typography
         color: $black;
-        font-size: 1rem;
+        font-size: 0.875rem;
         text-align: center;
         text-transform: uppercase;
+
+        @include atSmall {
+            // typography
+            font-size: 0.7rem;
+        }
 
         @include atTabletsPortrait {
             // box model
