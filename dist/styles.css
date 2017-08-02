@@ -742,7 +742,7 @@ body {
     @media (min-width: 1200px) {
       .product__image {
         left: auto;
-        right: -25px;
+        right: -15px;
         width: 230px; } }
     .product__image img {
       width: 100%; }
