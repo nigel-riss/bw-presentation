@@ -827,7 +827,6 @@ body {
     width: 100%; }
 
 .instagram-ledder {
-  display: none;
   font-size: 0; }
   @media (min-width: 1200px) {
     .instagram-ledder {
@@ -836,13 +835,16 @@ body {
       right: 0; } }
   .instagram-ledder__row {
     display: none;
+    font-size: 0;
     text-align: right; }
     @media (min-width: 1200px) {
       .instagram-ledder__row {
         display: block; } }
-    @media (min-width: 1200px) {
-      .instagram-ledder__row--mobile {
-        display: none; } }
+    .instagram-ledder__row--mobile {
+      display: block; }
+      @media (min-width: 1200px) {
+        .instagram-ledder__row--mobile {
+          display: none; } }
   .instagram-ledder__title {
     padding: 20px 0;
     padding-bottom: 40px;
@@ -862,7 +864,7 @@ body {
       text-decoration: none; }
   .instagram-ledder__image {
     display: inline-block;
-    width: 100px; }
+    width: 33%; }
     @media (min-width: 1200px) {
       .instagram-ledder__image {
         width: 132px; } }
@@ -930,7 +932,7 @@ p.golden-text {
       font-size: 1.25rem; } }
 
 .prices-table {
-  margin: 0 -20px;
+  margin: 0 -25px;
   margin-bottom: 40px;
   border-collapse: collapse; }
   @media (min-width: 1200px) {
@@ -988,7 +990,7 @@ p.golden-text {
       font-size: 0.8em; }
     .prices-table td:nth-of-type(1) {
       font-family: "IntroBold";
-      font-size: 1rem;
+      font-size: 0.9rem;
       text-align: left; }
       @media (min-width: 700px) {
         .prices-table td:nth-of-type(1) {
